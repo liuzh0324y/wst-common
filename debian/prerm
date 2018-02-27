@@ -1,0 +1,5 @@
+#!/bin/sh
+
+service nginx stop
+
+exit 0

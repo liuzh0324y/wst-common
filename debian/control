@@ -1,0 +1,5 @@
+Package: nginx
+Version: 1.12.0~trusty
+Architecture: amd64
+Maintainer: liuzh <liuzh@llvision.com>
+Description: nginx
