@@ -1,5 +1,5 @@
 #!/bin/sh
 
-service nginx stop
+service wisdom-media-server stop
 
 exit 0

@@ -1,16 +1,16 @@
 #!/bin/sh
 ### BEGIN INIT INFO
-# Provides:            nginx
+# Provides:            wisdom-media-server
 # Required-Start:      $network $remote_fs $local_fs
 # Required-Stop:       $network $remote_fs $local_fs
 # Default-Start:       2 3 4 5
 # Default-Stop:        0 1 6
-# Short-Description:   Stop/start nginx
+# Short-Description:   Stop/start wisdom-media-server
 ### END INIT INFO
 
-# Author: liuzh <liuzh@llvision.com>
+# Author: liuzh <liuzh@wst-libs.com>
 
-DAEMON=/opt/nginx/bin/nginx
+DAEMON=/opt/wisdom-media-server/bin/wisdom-media-server
 
 dostart() {
     start-stop-daemon --start --background --exec $DAEMON

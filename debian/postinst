@@ -2,7 +2,7 @@
 
 set -e 
 
-update-rc.d nginx defaults >/dev/null
-service nginx start
+update-rc.d wisdom-media-server defaults >/dev/null
+service wisdom-media-server start
 
 exit 0
