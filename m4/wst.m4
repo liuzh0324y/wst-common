@@ -7,9 +7,9 @@ dnl
 dnl We call AC_CANONICAL_TARGET and AC_CANONICAL_HOST so that
 dnl it is valid before AC_ARG_PROGRAM is called
 
-AC_DEFUN([WST_INIT],
+AC_DEFUN([AG_WST_INIT],
 [
-    m4_pattern_forbid(^_?WST_)
+    m4_pattern_forbid(^_?AG_WST_)
     AC_REQUIRE([AC_CANONICAL_HOST]) dnl we use host_ variables
     AC_REQUIRE([AC_CANONICAL_TARGET]) dnl we use target_ variables
 ])
